@@ -50,20 +50,14 @@ a {
 }
 
 .article-1 {
+    background-image: url("../images/banner.png");
+    background-position: center 600px;
     display: flex;
     flex-direction: column;
     width: 100%;
     height: 400px;
     justify-content: flex-start;
     align-items: center;
-}
-
-.banner-image {
-    position: absolute;
-    overflow: hidden;
-    width: 100%;
-    height: 400px;
-    object-fit: cover;
 }
 
 .logo-banner-image {
