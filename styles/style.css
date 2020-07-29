@@ -128,6 +128,7 @@ a {
 }
 
 .section {
+    margin: 50px 0;
     width: 1000px;
     display: flex;
     justify-content: space-between;
@@ -143,3 +144,38 @@ a {
 article > h2 {
     margin: 10px 0;
 }
+
+.article-2 {
+    width: 300px;
+}
+
+.gray {
+    background: #f7f7f7;
+}
+
+
+.article-3 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.three-row-article {
+    width: 66%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.moon-sea-image {
+    width: 240px;
+    height: 180px;
+}
+
+.flex-direction-row-reverse {
+    flex-direction: row-reverse;
+}
+
+
