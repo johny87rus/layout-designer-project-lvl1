@@ -77,7 +77,7 @@
         <form class="form" id="request">
             <fieldset class="room-settings">
                 <legend>Параметры квартиры</legend>
-                <div>
+                <div class="input">
                     <label for="room-quantity">Количество комнат :</label>
                     <select size="1" id="room-quantity">
                         <option selected value="q1">1</option>
@@ -85,7 +85,7 @@
                         <option value="q3">3</option>
                     </select>
                 </div>
-                <div>
+                <div class="input">
                     <label for="decoration">Отделка :</label>
                     <select size="1" id="decoration">
                         <option selected value="d1">Без отделки</option>
@@ -96,20 +96,20 @@
             </fieldset>
             <fieldset class="room-settings">
                 <legend>Контактная информация</legend>
-                <div>
+                <div class="input">
                     <label for="name">Имя :</label>
                     <input type="text" id="name">
                 </div>
-                <div>
+                <div class="input">
                     <label for="phone">Телефон :</label>
                     <input type="text" id="phone">
                 </div>
-                <div>
+                <div class="input">
                     <label for="mail">Email :</label>
                     <input type="text" id="mail">
                 </div>
             </fieldset>
-            <input type="button">
+            <input type="button" value="Отправить" class="send-button">
         </form>
     </section>
 </main>
