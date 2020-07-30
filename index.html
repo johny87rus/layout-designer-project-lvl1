@@ -72,6 +72,46 @@
             </div>
         </article>
     </section>
+    <section class="form-section">
+        <h2>Оставьте заявку сегодня!</h2>
+        <form class="form" id="request">
+            <fieldset class="room-settings">
+                <legend>Параметры квартиры</legend>
+                <div>
+                    <label for="request">Количество комнат :</label>
+                    <select name="room-quantity" size="1">
+                        <option selected value="q1">1</option>
+                        <option value="q2">2</option>
+                        <option value="q3">3</option>
+                    </select>
+                </div>
+                <div>
+                    <label for="request">Отделка :</label>
+                    <select name="decoration" size="1">
+                        <option selected value="d1">Без отделки</option>
+                        <option value="d2">Минимальная отделка</option>
+                        <option value="d3">Под ключ</option>
+                    </select>
+                </div>
+            </fieldset>
+            <fieldset class="room-settings">
+                <legend>Контактная информация</legend>
+                <div>
+                    <label for="request">Имя :</label>
+                    <input type="text">
+                </div>
+                <div>
+                    <label for="request">Телефон :</label>
+                    <input type="text">
+                </div>
+                <div>
+                    <label for="request">Email :</label>
+                    <input type="text">
+                </div>
+            </fieldset>
+            <input type="button">
+        </form>
+    </section>
 </main>
 <footer>Футер</footer>
 </body>
