@@ -10,10 +10,10 @@
 </head>
 <body class="body">
 <header>
-    <logo>
+    <div class="logo">
         <img class="logo-image logo-item" src="images/logo.svg" alt="Логотип Лунное Море">
         <span class="logo-item bold">Лунное море</span>
-    </logo>
+    </div>
     <menu class="header-menu">
         <a href="#advantages" class="menu-item bold">Преимущества</a>
         <a href="#about" class="menu-item bold">О ЖК</a>
@@ -78,16 +78,16 @@
             <fieldset class="room-settings">
                 <legend>Параметры квартиры</legend>
                 <div>
-                    <label for="request">Количество комнат :</label>
-                    <select name="room-quantity" size="1">
+                    <label for="room-quantity">Количество комнат :</label>
+                    <select size="1" id="room-quantity">
                         <option selected value="q1">1</option>
                         <option value="q2">2</option>
                         <option value="q3">3</option>
                     </select>
                 </div>
                 <div>
-                    <label for="request">Отделка :</label>
-                    <select name="decoration" size="1">
+                    <label for="decoration">Отделка :</label>
+                    <select size="1" id="decoration">
                         <option selected value="d1">Без отделки</option>
                         <option value="d2">Минимальная отделка</option>
                         <option value="d3">Под ключ</option>
@@ -97,16 +97,16 @@
             <fieldset class="room-settings">
                 <legend>Контактная информация</legend>
                 <div>
-                    <label for="request">Имя :</label>
-                    <input type="text">
+                    <label for="name">Имя :</label>
+                    <input type="text" id="name">
                 </div>
                 <div>
-                    <label for="request">Телефон :</label>
-                    <input type="text">
+                    <label for="phone">Телефон :</label>
+                    <input type="text" id="phone">
                 </div>
                 <div>
-                    <label for="request">Email :</label>
-                    <input type="text">
+                    <label for="mail">Email :</label>
+                    <input type="text" id="mail">
                 </div>
             </fieldset>
             <input type="button">
