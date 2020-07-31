@@ -239,3 +239,33 @@ div > select {
     color: #25d7b5;
     background-color: transparent;
 }
+
+.footer {
+    margin: 50px 0 0 0;
+    background: #303846;
+    height: 150px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer article {
+    color: white;
+    margin: 0 50px;
+}
+
+.margin-left-10 {
+    margin-left: 10px;
+}
+
+.logo-footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+footer li {
+    cursor: pointer;
+}
