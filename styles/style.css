@@ -24,11 +24,18 @@ h1 {
 
 
 header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
     height: 80px;
     width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    background: white;
+    opacity: unset;
+    z-index: 20;
 }
 
 .logo {
@@ -74,6 +81,7 @@ a {
     height: 400px;
     justify-content: flex-start;
     align-items: center;
+    margin-top: 80px
 }
 
 .logo-banner-image {
