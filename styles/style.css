@@ -151,6 +151,17 @@ a {
     align-items: center;
 }
 
+.width-100 {
+    width: 100%;
+}
+
+.div-section {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
 article > h2 {
     margin: 10px 0;
 }

@@ -25,7 +25,9 @@
         <img src="images/logo.svg" alt="Логотип" class="logo-banner-image">
         <h1 class="color-white bold">ЖК &#171;Лунное море&#187;</h1>
         <h3 class="color-white bold">Место, откуда не хочется улетать</h3>
-        <form action="#form-request"><button class="book-button" >Забронировать</button></form>
+        <form action="#form-request">
+            <button class="book-button">Забронировать</button>
+        </form>
     </article>
     <div class="section" id="advantages">
         <article class="article-2">
@@ -44,18 +46,23 @@
                 России.</p>
         </article>
     </div>
-    <div class="section gray" id="about">
-        <article class="article-3">
-            <div class="three-row-article">
-                <h2>О ЖК «Лунное море»</h2>
-                <p>Все чаще жители Москвы предпочитают загородный дом городской квартире, к тому же связь с мегаполисом
-                    не теряется – современные скоростные трассы позволяют без труда добираться до столицы и обратно.</p>
-                <p>Мы построили наши дома на самом близком к Солнцу спутнике, всего в 380 тысяч километров от Земли.</p>
-            </div>
-            <div>
-                <img src="images/moon-1.jpg" alt="Луна" class="moon-sea-image">
-            </div>
-        </article>
+    <div class="gray width-100 div-section">
+        <div class="section" id="about">
+            <article class="article-3">
+                <div class="three-row-article">
+                    <h2>О ЖК «Лунное море»</h2>
+                    <p>Все чаще жители Москвы предпочитают загородный дом городской квартире, к тому же связь с
+                        мегаполисом
+                        не теряется – современные скоростные трассы позволяют без труда добираться до столицы и
+                        обратно.</p>
+                    <p>Мы построили наши дома на самом близком к Солнцу спутнике, всего в 380 тысяч километров от
+                        Земли.</p>
+                </div>
+                <div>
+                    <img src="images/moon-1.jpg" alt="Луна" class="moon-sea-image">
+                </div>
+            </article>
+        </div>
     </div>
     <div class="section" id="vacation">
         <article class="article-3 flex-direction-row-reverse">
@@ -72,46 +79,48 @@
             </div>
         </article>
     </div>
-    <section class="form-section" id="form-request">
-        <h2>Оставьте заявку сегодня!</h2>
-        <form class="form" id="request">
-            <fieldset class="room-settings">
-                <legend>Параметры квартиры</legend>
-                <div class="input">
-                    <label for="room-quantity">Количество комнат :</label>
-                    <select size="1" id="room-quantity">
-                        <option selected value="q1">1</option>
-                        <option value="q2">2</option>
-                        <option value="q3">3</option>
-                    </select>
-                </div>
-                <div class="input">
-                    <label for="decoration">Отделка :</label>
-                    <select size="1" id="decoration">
-                        <option selected value="d1">Без отделки</option>
-                        <option value="d2">Минимальная отделка</option>
-                        <option value="d3">Под ключ</option>
-                    </select>
-                </div>
-            </fieldset>
-            <fieldset class="room-settings">
-                <legend>Контактная информация</legend>
-                <div class="input">
-                    <label for="name">Имя :</label>
-                    <input type="text" id="name">
-                </div>
-                <div class="input">
-                    <label for="phone">Телефон :</label>
-                    <input type="text" id="phone">
-                </div>
-                <div class="input">
-                    <label for="mail">Email :</label>
-                    <input type="text" id="mail">
-                </div>
-            </fieldset>
-            <input type="button" value="Отправить" class="send-button">
-        </form>
-    </section>
+    <div class="gray width-100 div-section">
+        <section class="form-section" id="form-request">
+            <h2>Оставьте заявку сегодня!</h2>
+            <form class="form" id="request">
+                <fieldset class="room-settings">
+                    <legend>Параметры квартиры</legend>
+                    <div class="input">
+                        <label for="room-quantity">Количество комнат :</label>
+                        <select size="1" id="room-quantity">
+                            <option selected value="q1">1</option>
+                            <option value="q2">2</option>
+                            <option value="q3">3</option>
+                        </select>
+                    </div>
+                    <div class="input">
+                        <label for="decoration">Отделка :</label>
+                        <select size="1" id="decoration">
+                            <option selected value="d1">Без отделки</option>
+                            <option value="d2">Минимальная отделка</option>
+                            <option value="d3">Под ключ</option>
+                        </select>
+                    </div>
+                </fieldset>
+                <fieldset class="room-settings">
+                    <legend>Контактная информация</legend>
+                    <div class="input">
+                        <label for="name">Имя :</label>
+                        <input type="text" id="name">
+                    </div>
+                    <div class="input">
+                        <label for="phone">Телефон :</label>
+                        <input type="text" id="phone">
+                    </div>
+                    <div class="input">
+                        <label for="mail">Email :</label>
+                        <input type="text" id="mail">
+                    </div>
+                </fieldset>
+                <input type="button" value="Отправить" class="send-button">
+            </form>
+        </section>
+    </div>
 </main>
 <footer class="footer">
     <div class="logo-footer">
