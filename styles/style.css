@@ -8,6 +8,7 @@
 }
 
 h2 {
+    font-size: 1.6em;
     margin-block-start: 0;
     margin-block-end: 0;
 }
@@ -104,11 +105,11 @@ a {
 .book-button {
     border: 1px solid white;
     text-decoration: white;
-    font-size: 20px;
+    font-size: 18px;
     border-radius: 12px;
     background-color: transparent;
-    width: 200px;
-    height: 50px;
+    width: 150px;
+    height: 40px;
     z-index: 0;
     margin: 20px 0;
     cursor: pointer;
@@ -156,6 +157,7 @@ a {
 }
 
 .div-section {
+    padding: 50px 0;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -250,10 +252,10 @@ div > select {
 .send-button {
     border: 1px solid #25d7b5;
     text-decoration: white;
-    font-size: 20px;
+    font-size: 18px;
     border-radius: 12px;
-    width: 200px;
-    height: 50px;
+    width: 150px;
+    height: 40px;
     cursor: pointer;
     overflow: hidden;
     outline: none;
@@ -262,10 +264,8 @@ div > select {
 }
 
 .footer {
-    margin: 50px 0 0 0;
-    background: #303846;
     height: 150px;
-    width: 100%;
+    width: 1000px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -289,4 +289,12 @@ footer article {
 
 footer li {
     cursor: pointer;
+}
+
+.div-footer {
+    background: #303846;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
