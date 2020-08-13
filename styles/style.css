@@ -82,6 +82,7 @@ a {
     justify-content: flex-start;
     align-items: center;
     margin-top: 80px;
+    flex-wrap: wrap;
 }
 
 .article-1-background {
