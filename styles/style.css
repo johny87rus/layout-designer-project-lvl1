@@ -76,16 +76,21 @@ a {
 }
 
 .article-1 {
-    background-image: url("../images/banner.png");
-    background-position: center 600px;
+    width: 1000px;
     display: flex;
     flex-direction: column;
-    width: 100%;
     justify-content: flex-start;
     align-items: center;
-    margin-top: 80px
+    margin-top: 80px;
 }
 
+.article-1-background {
+    background-image: url("../images/banner.png");
+    background-position: center 600px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
 .logo-banner-image {
     margin: 25px;
     width: 200px;
@@ -298,4 +303,8 @@ footer li {
 .flex-center {
     display: flex;
     justify-content: center;
+}
+
+.align-self-center {
+    align-self: center;
 }
