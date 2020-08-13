@@ -145,12 +145,6 @@ a {
     align-items: flex-start;
 }
 
-.main {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
 .width-100 {
     width: 100%;
 }
@@ -299,4 +293,9 @@ footer li {
 
 .footer > article > ul {
     padding-inline-start: 20px;
+}
+
+.flex-center {
+    display: flex;
+    justify-content: center;
 }
