@@ -32,8 +32,6 @@ h1 {
     justify-content: space-between;
     align-items: center;
     background: white;
-    opacity: unset;
-    z-index: 20;
 }
 
 .logo {
@@ -91,15 +89,10 @@ a {
     margin: 25px;
     width: 200px;
     height: 200px;
-    z-index: 10;
 }
 
 .color-white {
     color: white;
-}
-
-.article-1 > span {
-    z-index: 0;
 }
 
 .book-button {
@@ -110,7 +103,6 @@ a {
     background-color: transparent;
     width: 150px;
     height: 40px;
-    z-index: 0;
     margin: 10px;
     cursor: pointer;
     overflow: hidden;
