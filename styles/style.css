@@ -26,6 +26,7 @@ h1 {
 
 
 .header {
+    padding: 10px;
     position: fixed;
     left : 0;
     top : 0;
@@ -42,15 +43,14 @@ h1 {
     align-items: center;
 }
 
-.logo-item {
-    margin: 10px
-}
-
 .logo-image {
     max-width: 50px;
     max-height: 50px;
 }
 
+.header > .logo > span {
+    margin: 10px;
+}
 .header-menu {
     display: flex;
     justify-content: right;
