@@ -74,7 +74,7 @@ a {
     font-weight: bold;
 }
 
-.article-1 {
+.article-presentation {
     width: 1000px;
     display: flex;
     flex-direction: column;
@@ -83,7 +83,7 @@ a {
     flex-wrap: wrap;
 }
 
-.article-1-background {
+.article-presentation-background {
     background-image: url("../images/banner.png");
     background-position: center 600px;
     width: 100%;
@@ -158,7 +158,7 @@ article > h2 {
     margin: 10px 0;
 }
 
-.article-2 {
+.article-advantages {
     width: 300px;
 }
 
@@ -167,7 +167,7 @@ article > h2 {
 }
 
 
-.article-3 {
+.article-about {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
