@@ -136,9 +136,7 @@ a {
 }
 
 .section {
-    width: 100%;
     display: flex;
-    justify-content: center;
     align-items: flex-start;
 }
 
@@ -323,4 +321,8 @@ footer li {
 
 .align-items-center {
     align-items: center;
+}
+
+.margin-0-auto {
+    margin: 0 auto;
 }
