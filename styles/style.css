@@ -113,6 +113,8 @@ a {
     overflow: hidden;
     outline: none;
     color: white;
+    text-align: center;
+    vertical-align: middle;
 }
 
 .font-size-40 {
